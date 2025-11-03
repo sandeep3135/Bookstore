@@ -90,7 +90,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <div class="relative w-[55px] h-[55px] ">
+            <div className="relative w-[55px] h-[55px]">
             <img src={BookBags_Logo} className='w-full h-full rounded-box transition-transform transform hover:-translate-y-2 hover:shadow-lg hover:shadow-gray-900' alt='BookBags 📚' />
             </div>
           </div>

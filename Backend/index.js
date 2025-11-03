@@ -19,7 +19,7 @@ const URI = process.env.MongoDBURI;
 
 // Connect to MongoDB
 mongoose
-  .connect(URI)
+  .connect('mongodb://root:example@127.0.0.1:27017/')
   .then(() => {
     console.log("Connected to MongoDB");
   })
